@@ -1,15 +1,21 @@
-Este é um projeto em linguagem C que visa criar um sistema básico de gerenciamento de informações de clientes e funcionários de uma empresa. Aqui está uma visão geral do que foi feito:
+Claro! Aqui está uma explicação do projeto em C, como se você estivesse apresentando para alguém:
 
-Definição de Estruturas: Duas estruturas foram definidas, uma para representar clientes (struct Cliente) e outra para representar funcionários (struct Funcionario). Cada estrutura tem campos para armazenar informações relevantes, como nome, CPF/CNPJ, telefone, endereço, cargo e salário.
-Função de Login: Implementou-se uma função fazerLogin() para simular um processo de autenticação. Ela solicita ao usuário um nome de usuário e senha, e compara-os com credenciais predefinidas ("admin" e "12345") para permitir ou negar o acesso.
-Menu de Opções: O programa exibe um menu com várias opções que o usuário pode escolher, como cadastrar clientes, cadastrar funcionários, gerar relatórios, consultar dados de clientes, consultar dados de funcionários e sair do programa.
-Implementação de Funcionalidades: Cada opção do menu tem uma função associada que realiza uma determinada tarefa. Por exemplo:
-cadastrarCliente(): Permite ao usuário cadastrar um novo cliente, solicitando informações como nome da empresa, CNPJ, telefone e endereço.
-cadastrarFuncionario(): Permite ao usuário cadastrar um novo funcionário, solicitando informações como nome, CPF, cargo e salário.
-gerarRelatorio(): Permite ao usuário escolher entre dois tipos de relatórios para gerar e salvar em um arquivo.
-consultarCliente(): Permite ao usuário consultar os dados de um cliente existente, fornecendo o CNPJ como entrada.
-consultarFuncionario(): Permite ao usuário consultar os dados de um funcionário existente, fornecendo o CPF como entrada.
-Loop Principal: O programa entra em um loop principal que continua executando até que o usuário escolha a opção para sair.
-Internacionalização: Foi incluída a biblioteca locale.h para configurar o idioma do programa para Português.
-Validação de Entrada: A entrada do usuário é validada em várias partes do código para garantir que não haja problemas ao ler e armazenar as informações.
-Resumidamente, este projeto consiste em um sistema simples de gerenciamento de informações de clientes e funcionários, com funcionalidades básicas de cadastro, consulta e geração de relatórios.
+---
+
+Oi pessoal! Queria compartilhar com vocês um projeto em C que desenvolvi recentemente. É um sistema bem básico de cadastro e consulta de clientes e funcionários.
+
+Vou explicar como ele funciona!
+
+Primeiro, a gente tem duas estruturas: uma para clientes e outra para funcionários. Cada uma dessas estruturas armazena algumas informações importantes, como nome, CPF/CNPJ, telefone, endereço, cargo e salário.
+
+Depois, temos algumas funções principais. A função `fazerLogin` cuida da autenticação do usuário, pedindo um nome de usuário e uma senha. Se as credenciais estiverem corretas, o usuário é autenticado. Se não, ele pode tentar de novo, com um limite máximo de tentativas.
+
+A função `mostrarMenu` exibe as opções disponíveis para o usuário, como cadastrar clientes, cadastrar funcionários, gerar relatórios, consultar dados, consultar funcionários e sair do sistema.
+
+Os dados dos clientes e funcionários são armazenados em arrays. Por exemplo, quando alguém cadastra um novo cliente, os dados são armazenados em um array de clientes. O mesmo vale para os funcionários.
+
+O usuário pode escolher entre várias opções no menu. Por exemplo, ele pode cadastrar um novo cliente ou funcionário, gerar relatórios, ou consultar dados de clientes ou funcionários.
+
+E por fim, temos algumas funções específicas para cada uma dessas ações. Por exemplo, a função `cadastrarCliente` pede os dados de um novo cliente (como nome, CNPJ, telefone e endereço) e os armazena em um array de clientes.
+
+Então é isso! É um projeto bem simples, mas pode ser útil para quem está aprendendo a programar em C e quer entender como funcionam algumas funcionalidades básicas, como arrays, structs e funções. Se tiverem alguma dúvida, é só me perguntar!
