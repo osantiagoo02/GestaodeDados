@@ -1,4 +1,4 @@
-Oi pessoal! Queria compartilhar com vocês um projeto em C que desenvolvi recentemente. É um sistema bem básico de cadastro e consulta de clientes e funcionários.
+Oi pessoal! Queria compartilhar com vocês um projeto em C que desenvolvi em Outubro do ano passado junto com mais 5 alunos da Universidade Paulista. É um sistema bem básico de cadastro e consulta de clientes e funcionários.
 
 Vou explicar como ele funciona!
 
