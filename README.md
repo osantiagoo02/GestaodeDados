@@ -1,7 +1,3 @@
-Claro! Aqui está uma explicação do projeto em C, como se você estivesse apresentando para alguém:
-
----
-
 Oi pessoal! Queria compartilhar com vocês um projeto em C que desenvolvi recentemente. É um sistema bem básico de cadastro e consulta de clientes e funcionários.
 
 Vou explicar como ele funciona!
