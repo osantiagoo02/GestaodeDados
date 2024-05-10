@@ -14,4 +14,3 @@ O usuário pode escolher entre várias opções no menu. Por exemplo, ele pode c
 
 E por fim, temos algumas funções específicas para cada uma dessas ações. Por exemplo, a função `cadastrarCliente` pede os dados de um novo cliente (como nome, CNPJ, telefone e endereço) e os armazena em um array de clientes.
 
-Então é isso! É um projeto bem simples, mas pode ser útil para quem está aprendendo a programar em C e quer entender como funcionam algumas funcionalidades básicas, como arrays, structs e funções. Se tiverem alguma dúvida, é só me perguntar!
