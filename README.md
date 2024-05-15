@@ -1,5 +1,5 @@
 🚀 **Projeto de Gestão de Clientes e Funcionários em C: Centralizando Informações com Eficiência**
-##
+
 O projeto de Gestão de Clientes e Funcionários em C é uma solução abrangente para empresas que buscam centralizar e gerenciar suas informações de forma eficiente. Com funcionalidades de cadastro, consulta e geração de relatórios, esse projeto oferece uma base sólida para o controle de dados essenciais.
 ##
 💡 **Objetivo do Projeto:**
