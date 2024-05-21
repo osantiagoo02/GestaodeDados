@@ -1,13 +1,13 @@
 # Gerenciamento de Clientes e Funcionários
 
-Sistema desenvolvido em C para gerenciamento de clientes e funcionários. O programa oferece funcionalidades de cadastro, consulta e geração de relatórios para clientes e funcionários.
+Este projeto, desenvolvido em C, visa gerenciar informações de clientes e funcionários. Inclui funcionalidades como cadastro, consulta e geração de relatórios.
 
 ## Funcionalidades
 - Cadastro de clientes e funcionários
 - Consulta de dados de clientes e funcionários
 - Geração de relatórios
 
-## Como Compilar e Executar
+## Compilação e Execução
 1. Navegue até o diretório `src`:
    ```sh
    cd src
